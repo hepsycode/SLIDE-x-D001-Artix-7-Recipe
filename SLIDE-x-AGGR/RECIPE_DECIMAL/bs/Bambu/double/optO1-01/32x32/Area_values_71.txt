@@ -1,0 +1,168 @@
+ ==  Bambu executed with: bambu -O1 -fcse-follow-jumps -fno-tree-ter -ftree-vectorize -I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_DECIMAL/bs/includes/values_71 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7a100t-1csg324-VVD /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bs/frst.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+Version: PandA 0.9.7-dev - Revision 151822f6eb6b28b68ef7cde4c7c3c0add185ed9d-panda-0.9.7-dev
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    __float64_addif
+    __float64_gtif
+    bs
+    main
+
+
+  Memory allocation information:
+    BRAM bitsize: 64
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data is not externally accessible
+    DATA bus bitsize: 128
+    ADDRESS bus bitsize: 9
+    SIZE bus bitsize: 8
+    Internally allocated memory (no private memories): 128
+    Internally allocated memory: 128
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function __float64_addif:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.78 seconds
+
+
+  Module allocation information for function __float64_gtif:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.03 seconds
+
+
+  Scheduling Information of function __float64_addif:
+    Number of control steps: 14
+    Minimum slack: 0.042599993000033476
+    Estimated max frequency (MHz): 201.71864255213947
+  Time to perform scheduling: 0.72 seconds
+
+
+  State Transition Graph Information of function __float64_addif:
+    Number of states: 13
+    Minimum number of cycles: 13
+    Maximum number of cycles 13
+    Parameters are registered
+    Done port is registered
+  Time to perform creation of STG: 0.05 seconds
+
+
+  Scheduling Information of function __float64_gtif:
+    Number of control steps: 5
+    Minimum slack: 1.9453499990000029
+    Estimated max frequency (MHz): 327.3697476544387
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function __float64_gtif:
+    Number of states: 3
+    Minimum number of cycles: 2
+    Maximum number of cycles 2
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function __float64_addif:
+    Bound operations:230/389
+  Time to perform easy binding: 0.01 seconds
+
+
+  Easy binding information for function __float64_gtif:
+    Bound operations:19/19
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function __float64_addif:
+    Number of storage values inserted: 119
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function __float64_addif:
+    Register allocation algorithm obtains a sub-optimal result: 112 registers(LB:67)
+  Time to perform register binding: 0.03 seconds
+
+
+  Register binding information for function __float64_addif:
+    Register allocation algorithm obtains a sub-optimal result: 119 registers(LB:67)
+  Time to perform register binding: 0.03 seconds
+
+
+  Module binding information for function __float64_addif:
+    Number of modules instantiated: 389
+    Number of possible conflicts for possible false paths introduced by resource sharing: 264
+    Estimated resources area (no Muxes and address logic): 4535
+    Estimated area of MUX21: 0
+    Total estimated area: 4535
+    Estimated number of DSPs: 0
+    Slack computed in 0.01 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.03 seconds
+    Clique covering computation completed in 0.03 seconds
+  Time to perform module binding: 0.08 seconds
+
+
+  Storage Value Information of function __float64_gtif:
+    Number of storage values inserted: 3
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function __float64_gtif:
+    Number of modules instantiated: 19
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 101
+    Estimated area of MUX21: 0
+    Total estimated area: 101
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function __float64_addif:
+    Register allocation algorithm obtains a sub-optimal result: 119 registers(LB:67)
+  Time to perform register binding: 0.03 seconds
+
+  Total number of flip-flops in function __float64_addif: 2449
+
+  Register binding information for function __float64_gtif:
+    Register allocation algorithm obtains an optimal result: 3 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __float64_gtif:
+    Number of allocated multiplexers (2-to-1 equivalent): 1
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function __float64_gtif: 66
+  All registers are without enable: function pipelining may come for free
+  Resources are not shared in function __float64_gtif: function pipelining may come for free
+
+  Module allocation information for function bs:
+    Operation for which does not exist a functional unit in the resource library: plus_expr in vertex: bs_26078_26155 with vertex type: VECTOR_REAL and vertex prec: 64:2 0 64:2
+error -> Vertices not completely allocated
+	virtual DesignFlowStep_Status allocation::InternalExec()
+	../../../src/HLS/module_allocation/allocation.cpp:1973
+Please report bugs to <panda-info@polimi.it>
+

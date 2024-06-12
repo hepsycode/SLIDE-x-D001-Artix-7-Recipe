@@ -1,0 +1,339 @@
+ ==  Bambu executed with: bambu -O2 -I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_DECIMAL/lud/includes/values_73 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7a100t-1csg324-VVD /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/lud/frst.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+Version: PandA 0.9.7-dev - Revision 151822f6eb6b28b68ef7cde4c7c3c0add185ed9d-panda-0.9.7-dev
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    __float32_divSRT4if
+    __float32_geif
+    __float32_gtif
+    lud
+    main
+
+
+  Memory allocation information:
+    BRAM bitsize: 16
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 32
+    ADDRESS bus bitsize: 15
+    SIZE bus bitsize: 6
+    ALL pointers have been resolved
+    Internally allocated memory (no private memories): 16384
+    Internally allocated memory: 16384
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function __float32_divSRT4if:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.47 seconds
+
+
+  Module allocation information for function __float32_geif:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.04 seconds
+
+
+  Module allocation information for function __float32_gtif:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.04 seconds
+
+
+  Scheduling Information of function __float32_divSRT4if:
+    Number of control steps: 8
+    Minimum slack: 0.047799986999999544
+    Estimated max frequency (MHz): 201.93045462115907
+  Time to perform scheduling: 0.10 seconds
+
+
+  State Transition Graph Information of function __float32_divSRT4if:
+    Number of states: 6
+    Done port is registered
+  Time to perform creation of STG: 0.01 seconds
+
+
+  Scheduling Information of function __float32_geif:
+    Number of control steps: 5
+    Minimum slack: 1.6583499990000004
+    Estimated max frequency (MHz): 299.25336277011257
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function __float32_geif:
+    Number of states: 3
+    Minimum number of cycles: 2
+    Maximum number of cycles 2
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Scheduling Information of function __float32_gtif:
+    Number of control steps: 5
+    Minimum slack: 1.6583499990000004
+    Estimated max frequency (MHz): 299.25336277011257
+  Time to perform scheduling: 0.01 seconds
+
+
+  State Transition Graph Information of function __float32_gtif:
+    Number of states: 3
+    Minimum number of cycles: 2
+    Maximum number of cycles 2
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function __float32_divSRT4if:
+    Bound operations:133/210
+  Time to perform easy binding: 0.00 seconds
+
+
+  Easy binding information for function __float32_geif:
+    Bound operations:22/22
+  Time to perform easy binding: 0.00 seconds
+
+
+  Easy binding information for function __float32_gtif:
+    Bound operations:19/19
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function __float32_divSRT4if:
+    Number of storage values inserted: 32
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function __float32_divSRT4if:
+    Register allocation algorithm obtains a sub-optimal result: 28 registers(LB:21)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function __float32_divSRT4if:
+    Register allocation algorithm obtains a sub-optimal result: 28 registers(LB:21)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function __float32_divSRT4if:
+    Number of modules instantiated: 210
+    Number of possible conflicts for possible false paths introduced by resource sharing: 96
+    Estimated resources area (no Muxes and address logic): 1309
+    Estimated area of MUX21: 0
+    Total estimated area: 1309
+    Estimated number of DSPs: 0
+    Slack computed in 0.01 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.01 seconds
+
+
+  Storage Value Information of function __float32_geif:
+    Number of storage values inserted: 3
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function __float32_geif:
+    Number of modules instantiated: 22
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 78
+    Estimated area of MUX21: 0
+    Total estimated area: 78
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Storage Value Information of function __float32_gtif:
+    Number of storage values inserted: 3
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function __float32_gtif:
+    Number of modules instantiated: 19
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 68
+    Estimated area of MUX21: 0
+    Total estimated area: 68
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function __float32_divSRT4if:
+    Register allocation algorithm obtains a sub-optimal result: 28 registers(LB:21)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __float32_divSRT4if:
+    Number of allocated multiplexers (2-to-1 equivalent): 4
+  Time to perform interconnection binding: 0.01 seconds
+
+  Total number of flip-flops in function __float32_divSRT4if: 500
+
+  Register binding information for function __float32_geif:
+    Register allocation algorithm obtains an optimal result: 3 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __float32_geif:
+    Number of allocated multiplexers (2-to-1 equivalent): 1
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function __float32_geif: 34
+  All registers are without enable: function pipelining may come for free
+  Resources are not shared in function __float32_geif: function pipelining may come for free
+
+  Register binding information for function __float32_gtif:
+    Register allocation algorithm obtains an optimal result: 3 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __float32_gtif:
+    Number of allocated multiplexers (2-to-1 equivalent): 1
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function __float32_gtif: 34
+  All registers are without enable: function pipelining may come for free
+  Resources are not shared in function __float32_gtif: function pipelining may come for free
+
+  Module allocation information for function lud:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.08 seconds
+
+
+  Scheduling Information of function lud:
+    Number of control steps: 18
+    Minimum slack: 5.0000000000000003e-10
+    Estimated max frequency (MHz): 200.00000002000002
+  Time to perform scheduling: 0.02 seconds
+
+
+  State Transition Graph Information of function lud:
+    Number of states: 17
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function lud:
+    Bound operations:60/79
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function lud:
+    Number of storage values inserted: 30
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 24 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 26 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 26 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function lud:
+    Number of modules instantiated: 79
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 12209
+    Estimated area of MUX21: 66
+    Total estimated area: 12275
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 26 registers(LB:17)
+  Time to perform register binding: 0.01 seconds
+
+
+  Connection Binding Information for function lud:
+    Number of allocated multiplexers (2-to-1 equivalent): 9
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function lud: 331
+
+  Module allocation information for function main:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.02 seconds
+
+
+  Scheduling Information of function main:
+    Number of control steps: 4
+    Minimum slack: 1.1102230246251565e-16
+    Estimated max frequency (MHz): 200
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function main:
+    Number of states: 3
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function main:
+    Bound operations:4/4
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function main:
+    Number of storage values inserted: 0
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function main:
+    Number of modules instantiated: 4
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 2000
+    Estimated area of MUX21: 0
+    Total estimated area: 2000
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains an optimal result: 0 registers
+  Time to perform register binding: 0.00 seconds
+
+  Total number of flip-flops in function main: 0
+[0mWarning: XML file "/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_DECIMAL/lud/files/values_73/test.xml" cannot be opened, creating a stub with random values
+Warning: Simulation completed but it is not possible to determine if it is correct!
+  Total cycles             : 133 cycles
+  Number of executions     : 1
+  Average execution        : 133 cycles

@@ -1,0 +1,93 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel:pp] preprocessing with "gcc -E -C -I.  -I/usr/share/frama-c/libc -D__FRAMAC__ -D__FC_MACHDEP_X86_32 -dD -nostdinc '-I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/bsort100/includes/' '-I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/bsort100/includes/values_42' '-I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-CORE' -m32 /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bsort100/frst.c"
+[kernel] Parsing /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bsort100/frst.c (with preprocessing)
+[metrics] Halstead metrics
+          ================
+          Total operators: 196 
+          Distinct operators: 31 
+          Total_operands: 78 
+          Distinct operands: 36 
+          Program length: 274 
+          Vocabulary size: 67 
+          Program volume: 1662.11 
+          Effort: 55819.14 
+          Program level: 0.03 
+          Difficulty level: 33.58 
+          Time to implement: 3101.06 
+          Bugs delivered: 0.49 
+          
+          
+          Global statistics (Halstead)
+          ============================
+          Operators
+          ---------
+            typedef: 30
+            array: 1
+            break: 1
+            if: 2
+            for: 2
+            extern: 2
+            ): 4
+            ,: 13
+            {: 3
+            (: 4
+            }: 3
+            []: 6
+            ;: 23
+            +: 2
+            ++: 2
+            -: 9
+            <: 2
+            =: 9
+            >: 1
+            TARGET_TYPE: 6
+            int64_t: 2
+            short: 4
+            long: 16
+            int: 10
+            signed: 14
+            TARGET_INDEX: 1
+            void: 2
+            unsigned: 14
+            char: 6
+            enum  { size13 }: 1
+            uint8_t: 1
+            
+          Operands
+          --------
+            fc_stdlib: 4
+            a: 7
+            lastSwap: 3
+            bsort100: 1
+            currentSwap: 4
+            index_1: 2
+            b: 2
+            Frama_C_bzero: 1
+            pop: 2
+            j: 4
+            size: 3
+            Frama_C_copy_block: 1
+            is_sorted: 4
+            push: 2
+            swap: 1
+            index_2: 2
+            i: 9
+            FC_BUILTIN: 2
+            5095644615466326354: 1
+            2224281073443657157: 1
+            633333156673304223: 1
+            2088033654866583498: 1
+            4172460420630529544: 1
+            7025396475300432975: 1
+            13: 1
+            728436019402952541: 1
+            3969391456768270409: 1
+            "/usr/share/frama-c/libc/__fc_define_intptr_t.h": 1
+            1: 5
+            1028318175861722194: 1
+            5645693867646561750: 1
+            3187924422712549386: 1
+            1856978546631451352: 1
+            0: 3
+            "/usr/share/frama-c/libc/stdint.h": 1
+            2670513111899734486: 1

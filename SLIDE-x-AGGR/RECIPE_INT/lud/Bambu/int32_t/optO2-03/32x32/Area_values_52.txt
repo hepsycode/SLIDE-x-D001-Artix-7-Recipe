@@ -1,0 +1,296 @@
+ ==  Bambu executed with: bambu -O2 -fno-align-jumps -fno-early-inlining -fno-gcse -fno-inline-functions-called-once -fno-move-loop-invariants -fschedule-insns -fno-tree-copyrename -fno-tree-loop-optimize -fno-tree-ter -fno-tree-vrp -I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/lud/includes/values_52 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7a100t-1csg324-VVD /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/lud/frst.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+Version: PandA 0.9.7-dev - Revision 151822f6eb6b28b68ef7cde4c7c3c0add185ed9d-panda-0.9.7-dev
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    __divsi3
+    myabs
+    lud
+    main
+
+
+  Memory allocation information:
+    BRAM bitsize: 16
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 32
+    ADDRESS bus bitsize: 15
+    SIZE bus bitsize: 6
+    ALL pointers have been resolved
+    Internally allocated memory (no private memories): 26624
+    Internally allocated memory: 26624
+  Time to perform memory allocation: 0.01 seconds
+
+
+  Module allocation information for function myabs:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.02 seconds
+
+
+  Scheduling Information of function myabs:
+    Number of control steps: 5
+    Minimum slack: 1.5609999999999999
+    Estimated max frequency (MHz): 290.7822041291073
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function myabs:
+    Number of states: 4
+    Minimum number of cycles: 3
+    Maximum number of cycles 3
+    Parameters are registered
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function myabs:
+    Bound operations:9/11
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function myabs:
+    Number of storage values inserted: 3
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function myabs:
+    Register allocation algorithm obtains a sub-optimal result: 3 registers(LB:2)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function myabs:
+    Register allocation algorithm obtains a sub-optimal result: 3 registers(LB:2)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function myabs:
+    Number of modules instantiated: 11
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 51
+    Estimated area of MUX21: 33
+    Total estimated area: 84
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function myabs:
+    Register allocation algorithm obtains a sub-optimal result: 3 registers(LB:2)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function myabs:
+    Number of allocated multiplexers (2-to-1 equivalent): 2
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function myabs: 76
+
+  Module allocation information for function __divsi3:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.11 seconds
+
+
+  Scheduling Information of function __divsi3:
+    Number of control steps: 6
+    Minimum slack: 0.12339999700000004
+    Estimated max frequency (MHz): 205.06090296206727
+  Time to perform scheduling: 0.02 seconds
+
+
+  State Transition Graph Information of function __divsi3:
+    Number of states: 5
+    Parameters are registered
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function __divsi3:
+    Bound operations:50/72
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function __divsi3:
+    Number of storage values inserted: 18
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function __divsi3:
+    Register allocation algorithm obtains a sub-optimal result: 13 registers(LB:12)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function __divsi3:
+    Register allocation algorithm obtains a sub-optimal result: 13 registers(LB:12)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function __divsi3:
+    Number of modules instantiated: 72
+    Number of possible conflicts for possible false paths introduced by resource sharing: 4
+    Estimated resources area (no Muxes and address logic): 476
+    Estimated area of MUX21: 0
+    Total estimated area: 476
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function __divsi3:
+    Register allocation algorithm obtains a sub-optimal result: 13 registers(LB:12)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __divsi3:
+    Number of allocated multiplexers (2-to-1 equivalent): 6
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function __divsi3: 201
+
+  Module allocation information for function lud:
+    Number of complex operations: 12
+    Number of complex operations: 12
+  Time to perform module allocation: 0.39 seconds
+
+
+  Scheduling Information of function lud:
+    Number of control steps: 86
+    Minimum slack: 5.0000000000000003e-10
+    Estimated max frequency (MHz): 200.00000002000002
+  Time to perform scheduling: 0.18 seconds
+
+
+  State Transition Graph Information of function lud:
+    Number of states: 88
+    Done port is registered
+  Time to perform creation of STG: 0.01 seconds
+
+
+  Easy binding information for function lud:
+    Bound operations:428/599
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function lud:
+    Number of storage values inserted: 135
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 92 registers(LB:40)
+  Time to perform register binding: 0.04 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 112 registers(LB:40)
+  Time to perform register binding: 0.04 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 112 registers(LB:40)
+  Time to perform register binding: 0.04 seconds
+
+
+  Module binding information for function lud:
+    Number of modules instantiated: 560
+    Number of possible conflicts for possible false paths introduced by resource sharing: 88
+    Estimated resources area (no Muxes and address logic): 14384
+    Estimated area of MUX21: 497
+    Total estimated area: 14881
+    Estimated number of DSPs: 6
+    Slack computed in 0.01 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.05 seconds
+    Clique covering computation completed in 0.08 seconds
+  Time to perform module binding: 0.15 seconds
+
+
+  Register binding information for function lud:
+    Register allocation algorithm obtains a sub-optimal result: 112 registers(LB:40)
+  Time to perform register binding: 0.04 seconds
+
+
+  Connection Binding Information for function lud:
+    Number of allocated multiplexers (2-to-1 equivalent): 59
+  Time to perform interconnection binding: 0.02 seconds
+
+  Total number of flip-flops in function lud: 1296
+
+  Module allocation information for function main:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.01 seconds
+
+
+  Scheduling Information of function main:
+    Number of control steps: 4
+    Minimum slack: 1.1102230246251565e-16
+    Estimated max frequency (MHz): 200
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function main:
+    Number of states: 3
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function main:
+    Bound operations:4/4
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function main:
+    Number of storage values inserted: 0
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function main:
+    Number of modules instantiated: 4
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 2000
+    Estimated area of MUX21: 0
+    Total estimated area: 2000
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains an optimal result: 0 registers
+  Time to perform register binding: 0.00 seconds
+
+  Total number of flip-flops in function main: 0
+[0mWarning: XML file "/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/lud/files/values_52/test.xml" cannot be opened, creating a stub with random values
+Warning: Simulation completed but it is not possible to determine if it is correct!
+  Total cycles             : 187 cycles
+  Number of executions     : 1
+  Average execution        : 187 cycles

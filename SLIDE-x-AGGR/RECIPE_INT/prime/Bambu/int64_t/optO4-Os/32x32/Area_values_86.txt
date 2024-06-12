@@ -1,0 +1,223 @@
+ ==  Bambu executed with: bambu -Os -I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/prime/includes/values_86 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7a100t-1csg324-VVD /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/prime/frst.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+Version: PandA 0.9.7-dev - Revision 151822f6eb6b28b68ef7cde4c7c3c0add185ed9d-panda-0.9.7-dev
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    __moddi3
+    prime
+    main
+
+
+  Memory allocation information:
+    BRAM bitsize: 32
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 64
+    ADDRESS bus bitsize: 7
+    SIZE bus bitsize: 7
+    ALL pointers have been resolved
+    Internally allocated memory (no private memories): 64
+    Internally allocated memory: 64
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function __moddi3:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.09 seconds
+
+
+  Scheduling Information of function __moddi3:
+    Number of control steps: 11
+    Minimum slack: 0.025699997999998669
+    Estimated max frequency (MHz): 201.03331113884025
+  Time to perform scheduling: 0.02 seconds
+
+
+  State Transition Graph Information of function __moddi3:
+    Number of states: 10
+    Parameters are registered
+    Done port is registered
+  Time to perform creation of STG: 0.01 seconds
+
+
+  Easy binding information for function __moddi3:
+    Bound operations:70/84
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function __moddi3:
+    Number of storage values inserted: 39
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function __moddi3:
+    Register allocation algorithm obtains a sub-optimal result: 32 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function __moddi3:
+    Register allocation algorithm obtains a sub-optimal result: 32 registers(LB:17)
+  Time to perform register binding: 0.01 seconds
+
+
+  Module binding information for function __moddi3:
+    Number of modules instantiated: 84
+    Number of possible conflicts for possible false paths introduced by resource sharing: 4
+    Estimated resources area (no Muxes and address logic): 1098
+    Estimated area of MUX21: 0
+    Total estimated area: 1098
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.01 seconds
+  Time to perform module binding: 0.01 seconds
+
+
+  Register binding information for function __moddi3:
+    Register allocation algorithm obtains a sub-optimal result: 32 registers(LB:17)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __moddi3:
+    Number of allocated multiplexers (2-to-1 equivalent): 8
+  Time to perform interconnection binding: 0.01 seconds
+
+  Total number of flip-flops in function __moddi3: 792
+
+  Module allocation information for function prime:
+    Number of complex operations: 10
+    Number of complex operations: 10
+  Time to perform module allocation: 0.05 seconds
+
+
+  Scheduling Information of function prime:
+    Number of control steps: 20
+    Minimum slack: 1.1102230246251565e-16
+    Estimated max frequency (MHz): 200
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function prime:
+    Number of states: 20
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function prime:
+    Bound operations:36/41
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function prime:
+    Number of storage values inserted: 13
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function prime:
+    Register allocation algorithm obtains a sub-optimal result: 12 registers(LB:9)
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function prime:
+    Register allocation algorithm obtains a sub-optimal result: 12 registers(LB:9)
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function prime:
+    Number of modules instantiated: 39
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 4131
+    Estimated area of MUX21: 66
+    Total estimated area: 4197
+    Estimated number of DSPs: 10
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function prime:
+    Register allocation algorithm obtains a sub-optimal result: 12 registers(LB:9)
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function prime:
+    Number of allocated multiplexers (2-to-1 equivalent): 8
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function prime: 459
+
+  Module allocation information for function main:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.01 seconds
+
+
+  Scheduling Information of function main:
+    Number of control steps: 4
+    Minimum slack: 1.1102230246251565e-16
+    Estimated max frequency (MHz): 200
+  Time to perform scheduling: 0.00 seconds
+
+
+  State Transition Graph Information of function main:
+    Number of states: 3
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function main:
+    Bound operations:4/4
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function main:
+    Number of storage values inserted: 0
+  Time to compute storage value information: 0.00 seconds
+
+
+  Module binding information for function main:
+    Number of modules instantiated: 4
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 2000
+    Estimated area of MUX21: 0
+    Total estimated area: 2000
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains an optimal result: 0 registers
+  Time to perform register binding: 0.00 seconds
+
+  Total number of flip-flops in function main: 0
+[0mWarning: XML file "/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/prime/files/values_86/test.xml" cannot be opened, creating a stub with random values
+Warning: Simulation completed but it is not possible to determine if it is correct!
+  Total cycles             : 1755076 cycles
+  Number of executions     : 1
+  Average execution        : 1755076 cycles

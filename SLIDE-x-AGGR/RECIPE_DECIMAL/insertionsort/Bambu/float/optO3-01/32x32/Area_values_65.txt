@@ -1,0 +1,256 @@
+ ==  Bambu executed with: bambu -O3 -falign-loops -fno-caller-saves -fno-cprop-registers -fno-if-conversion -fno-ivopts -freorder-blocks-and-partition -fno-tree-pre -funroll-all-loops -I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_DECIMAL/insertionsort/includes/values_65 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7a100t-1csg324-VVD /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/insertionsort/frst.c 
+
+
+********************************************************************************
+                    ____                  _
+                   | __ )  __ _ _ __ ___ | |_   _   _
+                   |  _ \ / _` | '_ ` _ \| '_ \| | | |
+                   | |_) | (_| | | | | | | |_) | |_| |
+                   |____/ \__,_|_| |_| |_|_.__/ \__,_|
+
+********************************************************************************
+                         High-Level Synthesis Tool
+
+                         Politecnico di Milano - DEIB
+                          System Architectures Group
+********************************************************************************
+                Copyright (C) 2004-2020 Politecnico di Milano
+Version: PandA 0.9.7-dev - Revision 151822f6eb6b28b68ef7cde4c7c3c0add185ed9d-panda-0.9.7-dev
+
+Target technology = FPGA
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+  The top function inferred from the specification is: main
+  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+  Functions to be synthesized:
+    __float32_ltif
+    __float32_gtif
+    main
+
+
+  Memory allocation information:
+    BRAM bitsize: 16
+    Spec may not exploit DATA bus width
+    All the data have a known address
+    Internal data may be accessed
+    DATA bus bitsize: 32
+    ADDRESS bus bitsize: 7
+    SIZE bus bitsize: 6
+    ALL pointers have been resolved
+    Internally allocated memory (no private memories): 32
+    Internally allocated memory: 32
+  Time to perform memory allocation: 0.00 seconds
+
+
+  Module allocation information for function __float32_gtif:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.06 seconds
+
+
+  Module allocation information for function __float32_ltif:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.06 seconds
+
+
+  Scheduling Information of function __float32_gtif:
+    Number of control steps: 5
+    Minimum slack: 1.9285999989999976
+    Estimated max frequency (MHz): 325.58442393514838
+  Time to perform scheduling: 0.01 seconds
+
+
+  State Transition Graph Information of function __float32_gtif:
+    Number of states: 3
+    Minimum number of cycles: 2
+    Maximum number of cycles 2
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Scheduling Information of function __float32_ltif:
+    Number of control steps: 5
+    Minimum slack: 1.9285999989999976
+    Estimated max frequency (MHz): 325.58442393514838
+  Time to perform scheduling: 0.01 seconds
+
+
+  State Transition Graph Information of function __float32_ltif:
+    Number of states: 4
+    Minimum number of cycles: 3
+    Maximum number of cycles 3
+    Parameters are registered
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function __float32_gtif:
+    Bound operations:24/34
+  Time to perform easy binding: 0.00 seconds
+
+
+  Easy binding information for function __float32_ltif:
+    Bound operations:24/34
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function __float32_gtif:
+    Number of storage values inserted: 7
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function __float32_gtif:
+    Register allocation algorithm obtains an optimal result: 7 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function __float32_gtif:
+    Register allocation algorithm obtains an optimal result: 7 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function __float32_gtif:
+    Number of modules instantiated: 34
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 170
+    Estimated area of MUX21: 0
+    Total estimated area: 170
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Storage Value Information of function __float32_ltif:
+    Number of storage values inserted: 7
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function __float32_ltif:
+    Register allocation algorithm obtains an optimal result: 7 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Register binding information for function __float32_ltif:
+    Register allocation algorithm obtains an optimal result: 7 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Module binding information for function __float32_ltif:
+    Number of modules instantiated: 34
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 170
+    Estimated area of MUX21: 0
+    Total estimated area: 170
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.00 seconds
+    Clique covering computation completed in 0.00 seconds
+  Time to perform module binding: 0.00 seconds
+
+
+  Register binding information for function __float32_gtif:
+    Register allocation algorithm obtains an optimal result: 7 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __float32_gtif:
+    Number of allocated multiplexers (2-to-1 equivalent): 1
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function __float32_gtif: 69
+  All registers are without enable: function pipelining may come for free
+  Resources are not shared in function __float32_gtif: function pipelining may come for free
+
+  Register binding information for function __float32_ltif:
+    Register allocation algorithm obtains an optimal result: 7 registers
+  Time to perform register binding: 0.00 seconds
+
+
+  Connection Binding Information for function __float32_ltif:
+    Number of allocated multiplexers (2-to-1 equivalent): 1
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function __float32_ltif: 69
+  All registers are without enable: function pipelining may come for free
+  Resources are not shared in function __float32_ltif: function pipelining may come for free
+
+  Module allocation information for function main:
+    Number of complex operations: 0
+    Number of complex operations: 0
+  Time to perform module allocation: 0.12 seconds
+
+
+  Scheduling Information of function main:
+    Number of control steps: 64
+    Minimum slack: 1.1630999999999947
+    Estimated max frequency (MHz): 260.62706872735765
+  Time to perform scheduling: 0.03 seconds
+
+
+  State Transition Graph Information of function main:
+    Number of states: 62
+    Minimum number of cycles: 28
+    Maximum number of cycles 62
+    Done port is registered
+  Time to perform creation of STG: 0.00 seconds
+
+
+  Easy binding information for function main:
+    Bound operations:50/99
+  Time to perform easy binding: 0.00 seconds
+
+
+  Storage Value Information of function main:
+    Number of storage values inserted: 52
+  Time to compute storage value information: 0.00 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains a sub-optimal result: 30 registers(LB:22)
+  Time to perform register binding: 0.01 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains a sub-optimal result: 33 registers(LB:22)
+  Time to perform register binding: 0.01 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains a sub-optimal result: 32 registers(LB:22)
+  Time to perform register binding: 0.01 seconds
+
+
+  Module binding information for function main:
+    Number of modules instantiated: 65
+    Number of possible conflicts for possible false paths introduced by resource sharing: 0
+    Estimated resources area (no Muxes and address logic): 6220
+    Estimated area of MUX21: 366
+    Total estimated area: 6586
+    Estimated number of DSPs: 0
+    Slack computed in 0.00 seconds
+    False-loop computation completed in 0.00 seconds
+    Weight computation completed in 0.01 seconds
+    Clique covering computation completed in 0.02 seconds
+  Time to perform module binding: 0.03 seconds
+
+
+  Register binding information for function main:
+    Register allocation algorithm obtains a sub-optimal result: 33 registers(LB:22)
+  Time to perform register binding: 0.01 seconds
+
+
+  Connection Binding Information for function main:
+    Number of allocated multiplexers (2-to-1 equivalent): 49
+  Time to perform interconnection binding: 0.00 seconds
+
+  Total number of flip-flops in function main: 256
+[0mWarning: XML file "/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_DECIMAL/insertionsort/files/values_65/test.xml" cannot be opened, creating a stub with random values
+Warning: Simulation completed but it is not possible to determine if it is correct!
+  Total cycles             : 50 cycles
+  Number of executions     : 1
+  Average execution        : 50 cycles

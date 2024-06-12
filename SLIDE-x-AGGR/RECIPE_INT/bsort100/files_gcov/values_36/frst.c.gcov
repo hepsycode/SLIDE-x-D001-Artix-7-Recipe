@@ -1,0 +1,83 @@
+        -:    0:Source:/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-BENCH/RECIPE/bsort100/frst.c
+        -:    0:Graph:frst.gcno
+        -:    0:Data:frst.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:/* bsort100.c */
+        -:    2:
+        -:    3:#include <stdint.h>
+        -:    4:#include <values.h>
+        -:    5:
+        -:    6:typedef int64_t TARGET_TYPE;
+        -:    7:typedef uint8_t TARGET_INDEX;
+        -:    8:
+        -:    9:/* BUBBLESORT BENCHMARK PROGRAM:
+        -:   10: * This program tests the basic loop constructs, integer comparisons,
+        -:   11: * and simple array handling of compilers by sorting 10 arrays of
+        -:   12: * randomly generated integers.
+        -:   13: */
+        -:   14:
+function swap called 144 returned 100% blocks executed 100%
+      144:   15:void swap(TARGET_INDEX index_1, TARGET_INDEX index_2)
+        -:   16:{
+      144:   17:	TARGET_TYPE b = a[index_1];
+      144:   18:	a[index_1] = a[index_2];
+      144:   19:	a[index_2] = b;
+      144:   20:}
+        -:   21:
+function bsort100 called 1 returned 100% blocks executed 100%
+        1:   22:void bsort100()
+        -:   23:{
+        -:   24:/*
+        -:   25: * Sorts an array of integers of size NUMELEMS in ascending order.
+        -:   26: */
+        -:   27:	TARGET_INDEX i;
+        -:   28:	TARGET_TYPE j;
+        -:   29:	TARGET_TYPE is_sorted;
+        -:   30:	TARGET_TYPE currentSwap; 
+        1:   31:	TARGET_TYPE lastSwap = size-1;
+        -:   32:
+       19:   33:	for(j = 0;
+unconditional  0 taken 1
+branch  1 taken 18
+branch  2 taken 0 (fallthrough)
+        -:   34:		j < size;
+       17:   35:		j++)
+unconditional  0 taken 17
+        -:   36:	{
+       18:   37:		is_sorted = (TARGET_TYPE) 1;
+       18:   38:		currentSwap = -1;
+      266:   39:		for(i = 0;
+unconditional  0 taken 18
+branch  1 taken 230
+branch  2 taken 18 (fallthrough)
+      248:   40:			i < lastSwap;
+      230:   41:			i++)
+unconditional  0 taken 230
+        -:   42:		{
+      230:   43:			if(a[i] > a[i+1])
+branch  0 taken 144 (fallthrough)
+branch  1 taken 86
+        -:   44:			{
+      144:   45:				swap(i,i+1);
+call    0 returned 144
+      144:   46:				is_sorted = 0;
+      144:   47:				currentSwap = i;
+unconditional  0 taken 144
+        -:   48:			}
+        -:   49:		}
+        -:   50:
+       18:   51:		if(is_sorted) break;
+branch  0 taken 1 (fallthrough)
+branch  1 taken 17
+unconditional  2 taken 1
+       17:   52:		lastSwap = currentSwap;
+        -:   53:	}
+        1:   54:}
+        -:   55:
+function main called 1 returned 100% blocks executed 100%
+        1:   56:void main()
+        -:   57:{
+        1:   58:	bsort100();
+call    0 returned 1
+        1:   59:}

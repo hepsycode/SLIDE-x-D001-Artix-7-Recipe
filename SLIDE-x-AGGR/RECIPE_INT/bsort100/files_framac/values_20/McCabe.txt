@@ -1,0 +1,76 @@
+[kernel] Parsing FRAMAC_SHARE/libc/__fc_builtin_for_normalization.i (no preprocessing)
+[kernel] Parsing /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bsort100/frst.c (with preprocessing)
+[metrics] Defined functions (3)
+          =====================
+           bsort100 (1 call); main (0 call); swap (1 call); 
+          
+          Undefined functions (0)
+          =======================
+           
+          
+          'Extern' global variables (0)
+          =============================
+           
+          
+          Potential entry points (1)
+          ==========================
+           main; 
+          
+          Global metrics
+          ============== 
+          Sloc = 29
+          Decision point = 4
+          Global variables = 1
+          If = 4
+          Loop = 2
+          Goto = 0
+          Assignment = 13
+          Exit point = 3
+          Function = 3
+          Function call = 2
+          Pointer dereferencing = 0
+          Cyclomatic complexity = 7
+[value] Analyzing a complete application starting at main
+[value] Computing initial state
+[value] Initial state computed
+[value:initial-state] Values of globals at initialization
+  a[0] ∈ {-5396574972613253782}
+   [1] ∈ {-1409201576702151708}
+   [2] ∈ {-6342381066539225207}
+   [3] ∈ {-6934570702664470474}
+   [4] ∈ {5818526066730273534}
+   [5] ∈ {-6973383966867938355}
+   [6] ∈ {-7897174928244324013}
+   [7] ∈ {4217088970030828917}
+   [8] ∈ {-9111988816431408500}
+   [9] ∈ {473832490053362232}
+   [10] ∈ {3970709932455761957}
+   [11] ∈ {6631570787928786946}
+   [12] ∈ {-1106750997402999326}
+   [13] ∈ {-8664958559450925916}
+   [14] ∈ {8109783820188897896}
+   [15] ∈ {-6326372677722727463}
+   [16] ∈ {-6996492911106222776}
+   [17] ∈ {1384128465261740134}
+   [18] ∈ {6085519377814458537}
+   [19] ∈ {3724375058061315229}
+   [20] ∈ {4730718039502096853}
+   [21] ∈ {-3918870509280677289}
+   [22] ∈ {558208898220636461}
+/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bsort100/frst.c:33:[value] entering loop for the first time
+/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bsort100/frst.c:39:[value] entering loop for the first time
+/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bsort100/frst.c:35:[value] warning: signed overflow. assert j + (long long)1 ≤ 9223372036854775807;
+[value] done for function main
+[metrics] Value coverage statistics
+          =========================
+          Syntactically reachable functions = 3 (out of 3)
+          Semantically reached functions = 3
+          Coverage estimation = 100.0%
+[metrics] References to non-analyzed functions
+          ------------------------------------
+[metrics] Statements analyzed by Value
+          ----------------------------
+          29 stmts in analyzed functions, 29 stmts analyzed (100.0%)
+          bsort100: 23 stmts out of 23 (100.0%)
+          main: 2 stmts out of 2 (100.0%)
+          swap: 4 stmts out of 4 (100.0%)

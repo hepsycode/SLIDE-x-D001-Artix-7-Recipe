@@ -1,0 +1,6 @@
+#ifndef VALUES
+#define VALUES
+	enum{k = 2};
+	enum{size = 4};
+	double arr[size] = {-1874509217830085825, 8156556387255820820, 3849319911629795415, -6425888769782521151};
+#endif

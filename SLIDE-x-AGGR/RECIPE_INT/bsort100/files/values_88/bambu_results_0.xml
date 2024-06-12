@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<bambu_results bambu_args="bambu -O3 -fno-inline-functions-called-once -fno-regmove -frename-registers -fno-tree-copyrename -I/home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/bsort100/includes/values_88 --simulate --simulator=VERILATOR --clock-period=5 --device-name=xc7a100t-1csg324-VVD /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x//SLIDE-x-BENCH/RECIPE/bsort100/frst.c " bambu_version="Version: PandA 0.9.7-dev - Revision 151822f6eb6b28b68ef7cde4c7c3c0add185ed9d-panda-0.9.7-dev" timestamp="2024-04-24T17:04:53" benchmark_name="main_0">
+  <CYCLES value="2317"/>
+  <HLS_execution_time value="1.30999999999999999995"/>
+</bambu_results>
