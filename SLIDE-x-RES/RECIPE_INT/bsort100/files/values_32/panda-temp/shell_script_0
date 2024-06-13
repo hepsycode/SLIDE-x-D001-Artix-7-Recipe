@@ -1,2 +1,0 @@
-#!/bin/bash
-(cd /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/bsort100/files/values_32/panda-temp//temp-archive-dir-0a09-672b-786f-0c82; ar x /home/ubuntu/panda/lib/panda/libbambu_gcc7.a)  > /home/ubuntu/Desktop/SLIDE-x-Repository/SLIDE-x/SLIDE-x-AGGR/RECIPE_INT/bsort100/files/values_32/panda-temp/shell_output_0 2>&1 

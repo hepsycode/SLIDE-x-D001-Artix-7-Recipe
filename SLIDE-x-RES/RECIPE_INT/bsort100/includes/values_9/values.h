@@ -1,5 +1,0 @@
-#ifndef VALUES
-#define VALUES
-	enum{size = 3};
-	int64_t a[size] = {-7225880567716184358, 3790201097449433499, -6057745390658617448};
-#endif

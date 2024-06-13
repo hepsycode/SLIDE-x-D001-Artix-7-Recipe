@@ -1,6 +1,0 @@
-#ifndef VALUES
-#define VALUES
-	enum{k = 2};
-	enum{size = 4};
-	int64_t arr[size] = {4340682456618687754, -1734685633566021400, -8038806169023635721, 6298004856046252120};
-#endif
