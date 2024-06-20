@@ -1,5 +1,0 @@
-#ifndef VALUES
-#define VALUES
-	enum{size = 3};
-	double arr[size] = {-8722744166482634922, 5091406633768369764, 3189814031859605811};
-#endif

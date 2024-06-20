@@ -1,5 +1,0 @@
-#ifndef VALUES
-#define VALUES
-	enum{size = 2};
-	double a[size][size] = {{-538213102958417823, 8541392411086990138},{-593953377636016614, -5584002379437210771}};
-#endif
